@@ -7,22 +7,26 @@ import { members } from "./interfaces/member";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      {/* 
+        
+      */}
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <div className="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
           <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />
             {members.map((member) => (
               <Route
+                key={member.route} // 
                 path={`/${member.route}`}
                 element={<Member member={member} />}
               />
             ))}
-            //Only add an entry for you at /interfaces/member.ts //Add your
-            photos in the corresponding folder at /public
+            {/* // */}
+            {/* // */}
           </Routes>
-        </div>{" "}
-      </BrowserRouter>{" "}
+        </div>
+      </BrowserRouter>
     </>
   );
 }
