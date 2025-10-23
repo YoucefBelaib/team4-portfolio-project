@@ -10,9 +10,9 @@ const TeamMembers = () => {
           The brilliant minds behind our success.
         </p>
       </div>
-      <div className="mt-12 gap-8 flex flex-row justify-evenly items-center">
+      <div className="mt-12 gap-8 flex flex-row justify-evenly">
         {members.map((member) => (
-          <div className="flex flex-col items-center gap-4 text-center">
+          <div className="flex flex-col items-center gap-4 text-center max-w-1/12">
             <div
               className="h-32 w-32 rounded-full bg-cover bg-center"
               style={{ backgroundImage: `url(${member.photo_url})` }}

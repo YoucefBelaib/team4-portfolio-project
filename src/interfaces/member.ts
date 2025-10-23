@@ -69,7 +69,7 @@ const youcef: MemberData = {
   route: "youcef",
   name: "Youcef",
   lastname: "Belaib",
-  photo_url: "/pfps/youcefpfp.JPG",
+  photo_url: "/pfps/youcefpfp2.JPG",
   role: "Team Leader and Software Engineer",
   city: "Algiers",
   country: "Algeria",
@@ -114,7 +114,7 @@ const oumaima: MemberData = {
   route: "oumaima",
   name: "Oumaima",
   lastname: "Boucekkine",
-  photo_url: "./pfps/oumaima.png",
+  photo_url: "/pfps/oumaima.png",
   role: "Frontend Developer & Creative Designer",
   city: "Annaba",
   country: "Algeria",
@@ -164,16 +164,16 @@ const oumaima: MemberData = {
   projects: [
    
     {
-      title: "Fresto – Restaurant Management System",
+      title: "Fresto - Restaurant Management System",
       description:
         "Built the frontend for a management system that allows restaurants to handle menus, staff, and customer orders seamlessly.",
-      photo_url: "public/pfps/oumaima_project1.png",
+      photo_url: "pfps/oumaima_project1.png",
     },
     {
     title: "House Price Prediction using Machine Learning",
     description:
       "Developed a machine learning model to predict house prices based on key features such as location, area, number of rooms, and overall property description. Implemented data preprocessing, feature engineering, and model evaluation using Python and scikit-learn.",
-    photo_url: "public/pfps/oumaima_project2.png",
+    photo_url: "pfps/oumaima_project2.png",
   },
   ],
 };
@@ -246,4 +246,4 @@ const islam: MemberData = {
 };
 
 
-export const members = [youcef , hind, malak, islam, oumaima];
+export const members = [youcef , oumaima, islam, hind , malak];
