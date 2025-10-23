@@ -29,7 +29,7 @@ const malak: MemberData = {
   route: "malak",
   name: "Malak",
   lastname: "Felioune",
-  photo_url: "/pfps/malak.jpg",
+  photo_url: "pfps/malak.jpg",
   role: "Software engineer",
   city: "Algiers",
   country: "Algeria",
@@ -60,7 +60,7 @@ const malak: MemberData = {
     title: "Adam AGI",
     description:
       "Adam AGI is a groundbreaking artificial general intelligence system — designed to reason, learn, and interact with the world in a fully autonomous way. first general intelligence, making it one of the breakthroughs of 2026.",
-    photo_url: "/pfps/AdamWithCat.jpg"
+    photo_url: "pfps/AdamWithCat.jpg"
   }
 ],
 };
@@ -69,7 +69,7 @@ const youcef: MemberData = {
   route: "youcef",
   name: "Youcef",
   lastname: "Belaib",
-  photo_url: "/pfps/youcefpfp2.JPG",
+  photo_url: "pfps/youcefpfp2.JPG",
   role: "Team Leader and Software Engineer",
   city: "Algiers",
   country: "Algeria",
@@ -101,7 +101,7 @@ const hind: MemberData = {
   route: "hind",
   name: "Hind",
   lastname: "Bennabi",
-  photo_url: "/pfps/pfp_hind.jpg",
+  photo_url: "pfps/pfp_hind.jpg",
   role: "AI Student ",
   city: "Algiers",
   country: "Algeria",
@@ -114,7 +114,7 @@ const oumaima: MemberData = {
   route: "oumaima",
   name: "Oumaima",
   lastname: "Boucekkine",
-  photo_url: "/pfps/oumaima.png",
+  photo_url: "pfps/oumaima.png",
   role: "Frontend Developer & Creative Designer",
   city: "Annaba",
   country: "Algeria",
@@ -182,7 +182,7 @@ const islam: MemberData = {
   route: "islam",
   name: "islam",
   lastname: "Benali",
-  photo_url: "/pfps/islam.jpg",
+  photo_url: "pfps/islam.jpg",
   role: "Software Engineer and Motion Designer",
   city: "Algiers",
   country: "Algeria",
