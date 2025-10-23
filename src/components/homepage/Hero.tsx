@@ -5,7 +5,7 @@ const Hero = () => {
         className="relative flex min-h-[480px] flex-col items-start justify-end overflow-hidden rounded-xl bg-cover bg-center p-8 md:p-12"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), url('/heroImage.png')",
+            "linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), url('heroImage.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
